@@ -1,0 +1,58 @@
+* {
+   font-family: Montserrat,Arial, Helvetica, sans-serif;
+   margin: auto ;
+   font-optical-sizing: auto;
+   font-style: normal;
+  
+}
+
+header {
+   
+   text-align: center;
+   color: rgb(255, 255, 255);
+   background-color: rgb(4, 4, 79);
+   padding: 15px 0;
+}
+
+nav {
+   text-align: center;
+   padding: 15px 0;
+}
+
+a {
+   text-decoration: none;
+}
+nav a:hover{
+   border-bottom: solid 5px rgb(4, 4, 79);
+}
+
+.hero {
+   background-image: url("../images/hero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 35em;
+   padding: 0px;
+}
+ 
+.content{
+   padding: 0 30px;
+   }
+
+main ul li{
+   padding-top: 5px;
+}
+
+.blue {
+   color:rgb(4, 4, 79);
+}
+.highlight{
+   font-size: 20px;
+   font-weight: 500;
+}
+.tpadding20px{
+   padding-top: 20px;
+}
+footer{
+   padding: 40px 30px 10px;
+}
