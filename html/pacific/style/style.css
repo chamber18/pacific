@@ -7,8 +7,8 @@ body {
    background: rgb(24,100,170);
    background: linear-gradient(90deg, rgba(24,100,170,1) 0%, rgba(51,103,240,1) 51%, rgba(0,212,255,1) 100%);
    background-attachment: fixed;
-   -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-   box-shadow: 5px 5px 15px 5px #000000;
+   -webkit-box-shadow: 6px 5px 11px -1px rgba(0,17,116,0.47); 
+   box-shadow: 6px 5px 11px -1px rgba(0,17,116,0.47);
 }
 
 header {
@@ -46,7 +46,22 @@ nav a:hover{
    background-position: center;
    min-height: 35em;
    margin-bottom: -30px;
-  
+}
+.cottages-hero {
+   background-image: url("../images/cottages-hero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 35em;
+   margin-bottom: -30px;
+}
+.activities-hero {
+   background-image: url("../images/activities-hero.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 35em;
+   margin-bottom: -30px;
 }
  
 main{
@@ -70,6 +85,16 @@ main ul li{
 .tpadding20px{
    padding-top: 20px;
 }
+.txt-center{
+   text-align: center;
+}
+
+.paddinglr50px {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer{
    margin-top: -30px;
    background-color: white;
@@ -79,4 +104,46 @@ footer{
 
 .cottage {
    text-align: center;
+}
+
+.container-cottage{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: left;
+   padding: 30px 50px;
+}
+.container-cottage img{
+   width: 100%;
+   height: auto;
+   vertical-align: middle;
+   border-radius: 20px 20px 0 0;
+   
+}
+.cottage-list { 
+   width: 250px;
+   border: 2px solid rgb(4, 4, 79);
+   border-radius: 20px;
+   box-shadow: 2px 2px 9px 1px rgba(6,53,115,0.32);
+  -webkit-box-shadow: 2px 2px 9px 1px rgba(6,53,115,0.32);
+  -moz-box-shadow: 2px 2px 9px 1px rgba(6,53,115,0.32);
+   margin-top: 30px;
+   
+   
+}
+
+.cottage-info{
+   padding: 2px  20px;
+   background-color: rgb(246, 245, 245);
+   border-radius: 0 0 20px 20px;
+   border: px solid red;
+   
+}
+
+.activities {
+   padding-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 80%;
+   
 }
